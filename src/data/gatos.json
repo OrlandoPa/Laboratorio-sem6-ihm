@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Polo RHCP",
+        "slug": "gato-1",
+        "description": "Polo de la banda RHCP",
+        "picture": "https://tiendalocaperu.com/wp-content/uploads/2023/03/7NLG.jpg"
+    },
+    {
+        "name": "Polo Guns N' Roses",
+        "slug": "gato-2",
+        "description": "Polo de la banda Guns N' Roses",
+        "picture": "https://tiendalocaperu.com/wp-content/uploads/2023/03/4NLG.jpg"
+    },
+    {
+        "name": "Polo Metallica",
+        "slug": "gato-3",
+        "description": "Polo de la banda Metallica",
+        "picture": "https://tiendalocaperu.com/wp-content/uploads/2023/01/33NLG.jpg"
+    },
+    {
+        "name": "Polo Metallica",
+        "slug": "gato-4",
+        "description": "Polo de la banda Metallica",
+        "picture": "https://tiendalocaperu.com/wp-content/uploads/2023/01/23NLG.jpg"
+    }
+]
