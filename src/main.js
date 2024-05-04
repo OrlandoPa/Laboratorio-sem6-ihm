@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { useNavigate } from "react-router-dom";
-import Gatos from './data/gatos.json'
+import Polos from './data/polos.json'
 
 const feather = require('feather-icons');
 
@@ -21,7 +21,7 @@ const Main = () => {
         <h1>LOS POLOS MÁS COMPRADOS</h1>
         <Carousel>
             {
-                Gatos.map(it => {
+                Polos.map(it => {
                     return (<Carousel.Item onClick={(e) => {
                         e.preventDefault(); handleClick(it.slug)
                     }}>
@@ -29,7 +29,7 @@ const Main = () => {
                         <Carousel.Caption>
                             <h3>{it.name}</h3>
                             <p>{it.description}</p>
-                            <button className="btn btn-light" >Ver más</button>
+                            <button className="btn btn-light" >Ver detalles</button>
                         </Carousel.Caption>
                     </Carousel.Item>);
                 })

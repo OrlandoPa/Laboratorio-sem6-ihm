@@ -1,15 +1,15 @@
-import Gatos from './data/gatos.json'
+import Polos from './data/polos.json'
 
 const Single = () => {
 
     const currentRoute = window.location.pathname;
-    const gato = Gatos.find(it => currentRoute.includes(it.slug))
+    const polo = Polos.find(it => currentRoute.includes(it.slug))
 
     return (<>
-        <h1>{gato.name}</h1>
+        <h1>{polo.name}</h1>
         <hr></hr>
-        <img src={gato.picture}></img>
-        <p>{gato.description}</p>
+        <img className='w-100 dark-image' src={polo.picture} ></img>
+        <p>{polo.description}</p>
     </>);
 }
 
