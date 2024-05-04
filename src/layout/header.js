@@ -15,7 +15,7 @@ const Header = () => {
     return <header data-bs-theme="dark" className="bd-footer bg-body-tertiary">
             <Navbar expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">POLOS KLIDAD</Navbar.Brand>
+        <Navbar.Brand href="/">POLOS KLIDAD</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -23,7 +23,7 @@ const Header = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1"><i data-feather="home"> </i>Inicio</Nav.Link>
+            <Nav.Link href="/"><i data-feather="home"> </i>Inicio</Nav.Link>
             <Nav.Link href="#action2"><i data-feather="info"></i>Más informacion</Nav.Link>
             <NavDropdown title="Tallas" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">S</NavDropdown.Item>
