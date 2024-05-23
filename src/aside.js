@@ -1,5 +1,5 @@
 const Aside = () => {
-    return <aside>
+    return <aside data-bs-theme="light" className="bd-footer py-4 py-md-5">
         <h2>REGISTRATE PARA VER OFERTAS EXCLUSIVAS</h2>
                 <div class="mb-3 row">
                     <label for="inputEmail" class="col-sm-4 col-form-label"><i data-feather="at-sign"></i>Email</label>
@@ -14,7 +14,7 @@ const Aside = () => {
                     </div>
                     <center>
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-3">
+                            <button type="submit" className="btn capa3 mb-3">
                             <i data-feather="check"></i>
                             Confirmar
                             </button>
@@ -30,7 +30,7 @@ const Aside = () => {
                 </div>
                 <center>
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-3">
+                            <button type="submit" class="btn capa3 mb-3">
                             <i data-feather="send"></i>
                             Enviar
                             </button>
@@ -44,7 +44,7 @@ const Aside = () => {
                   </div>
                 <center>
                     <div class="col-auto">
-                        <button type="submit" class="btn btn-primary mb-3">
+                        <button type="submit" class="btn capa3 mb-3">
                         <i data-feather="upload"></i>
                         Subir
                         </button>

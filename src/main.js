@@ -29,7 +29,7 @@ const Main = () => {
                         <Carousel.Caption>
                             <h3>{it.name}</h3>
                             <p>{it.description}</p>
-                            <button className="btn btn-light" >Ver detalles</button>
+                            <button className="btn capa3" >Ver detalles</button>
                         </Carousel.Caption>
                     </Carousel.Item>);
                 })
