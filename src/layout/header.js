@@ -23,9 +23,9 @@ const Header = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/" className="text-white"><i data-feather="home"> </i>Inicio</Nav.Link>
-            <Nav.Link href="#action2" className="text-white"><i data-feather="info"></i>Más informacion</Nav.Link>
-            <NavDropdown className="text-white" title={<span className="text-white">Tallas</span>} id="navbarScrollingDropdown">
+            <Nav.Link href="/" className="text-white spaced"><i data-feather="home"></i>Inicio</Nav.Link>
+            <Nav.Link href="#action2" className="text-white spaced"><i data-feather="info"></i>Más informacion</Nav.Link>
+            <NavDropdown className="text-white" title={<span className="text-white spaced">Tallas</span>} id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">S</NavDropdown.Item>
               <NavDropdown.Item href="#action4">M</NavDropdown.Item>
               <NavDropdown.Item href="#action4">X</NavDropdown.Item>

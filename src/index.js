@@ -21,7 +21,7 @@ const router = createBrowserRouter([
                     <div className="col-md-8">
                         <Main></Main>
                     </div>
-                    <div className="col-md-4">
+                    <div style={{borderRadius:'25px'}} className="col-md-4 p-3 capa1">
                         <Aside></Aside>
                     </div>
                 </>

@@ -20,3 +20,11 @@ h1{
 .text-white {
     color: #ffffff;
 }
+
+i{
+    margin-right: 8px;
+}
+
+.spaced{
+    margin: 0 10px
+}

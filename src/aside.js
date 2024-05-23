@@ -14,7 +14,7 @@ const Aside = () => {
                     </div>
                     <center>
                         <div class="col-auto">
-                            <button type="submit" className="btn capa3 mb-3">
+                            <button type="submit" className="btn capa3 mb-3 mt-2">
                             <i data-feather="check"></i>
                             Confirmar
                             </button>
